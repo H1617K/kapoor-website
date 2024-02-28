@@ -14,8 +14,14 @@ import KapoorTextLogo from '../Image/KapoorTextLogo.png'
 import GooglePlaystore from '../Image/Google-Palystore.svg'
 import Appstore from '../Image/AppStore.png'
 
+//NewsLetter
+import NewsLetterBG from '../Image/NewsLetterBackGround.png'
+import NewsPoster1 from '../Image/NewsPoster1.png'
+import NewsPoster2 from '../Image/NewsPoster2.png'
+
 export {
     BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,
     Logo,KapoorTextLogo,
-    GooglePlaystore, Appstore
+    GooglePlaystore, Appstore,
+    NewsLetterBG, NewsPoster1, NewsPoster2
 }

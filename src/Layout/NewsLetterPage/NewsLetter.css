@@ -1,0 +1,47 @@
+.newsletter-image-container img {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.background{
+    background-color: whitesmoke;
+    height: 1500px;
+ }
+
+.newsletter-news-container{
+    width: 70%;
+    height: 1600px;
+    background-color: white;
+    margin-left: 15%;
+    position: absolute;
+    top: 85%;
+}
+
+.newsletter-header h5 {
+    text-align: left;
+    margin-left: 40px;
+    font-size:xx-large;
+    color: black;
+}
+
+.Paragraph1{
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: left;
+}
+
+.header1 {
+    margin-right: 510px;
+    font-weight: 600;
+}
+
+.header2{
+    margin-right: 730px;
+    font-weight: 600;
+}
+
+.newsletter-image-poster img{
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
