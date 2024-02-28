@@ -1,11 +1,6 @@
 import React from 'react'
 import '../Blogs/Blogs.css'
-import BlogImg1 from '../../assets/BlogImg1.png'
-import BlogImg2 from '../../assets/BlogImg2.png'
-import BlogImg3 from '../../assets/BlogImg3.png'
-import BlogImg4 from '../../assets/BlogImg4.png'
-import BlogImg5 from '../../assets/BlogImg5.png'
-import BlogImg6 from '../../assets/BlogImg6.png'
+import { BlogImg1, BlogImg2, BlogImg3, BlogImg4, BlogImg5, BlogImg6 } from '../../assets/Image'
 
 export const Blogs = () => {
   return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Footer/Footer.css';
-import Google from "../../assets/Google-Palystore.svg";
-import AppStore from '../../assets/AppStore.png'
+import {GooglePlaystore, Appstore} from '../../assets/Image'
 
 const Footer = () => {
   return (
@@ -12,10 +11,10 @@ const Footer = () => {
           <h3>DOWNLOAD OUR APP</h3>
           <ul>
             <li>
-                <img src={Google} alt="Google Play" />
+                <img src={GooglePlaystore} alt="Google Play" />
             </li>
             <li>
-                <img src={AppStore} alt="Google Play" />
+                <img src={Appstore} alt="Google Play" />
             </li>
           </ul>
           </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import HeaderContainer from '../Header/Styled.ts'
-import  Logo  from '../../assets/Logo.png'
-import KapoorTextLOGO from '../../assets/KapoorTextLogo.png'
+import { Logo,KapoorTextLogo} from '../../assets/Image.js'
 import { FaFacebookF, FaHeart, FaUser } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa6";
 import { ImInstagram } from "react-icons/im";
@@ -44,7 +43,7 @@ const Header = () => {
                             <div className='sub-header-2 flex-wrap'>
                                 <div className='sub-box-Logo '>
                                     <img src={Logo} alt='Kapoor-logo' />
-                                    <img src={KapoorTextLOGO} alt='Kapoor-logo' />
+                                    <img src={KapoorTextLogo} alt='Kapoor-logo' />
                                 </div>
                                 <div className="search-container">
                                     <input type="text" className="search-box" placeholder="Search For Products..." />
