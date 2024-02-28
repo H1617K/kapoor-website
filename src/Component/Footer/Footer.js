@@ -33,7 +33,7 @@ const Footer = () => {
 
       <div className="footer-content">
         <div className="footer-section">
-          <h3>COMPANY</h3>
+          <h5>COMPANY</h5>
           <ul>
             <li>Privacy Policy</li>
             <li>Contact Us</li>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h3>INFORMATION</h3>
+          <h5>INFORMATION</h5>
           <ul>
             <li>Returns</li>
             <li>Product</li>
@@ -55,7 +55,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h3>SOCIAL</h3>
+          <h5>SOCIAL</h5>
           <ul>
             <li>
               <a href="https://www.facebook.com/KAPOORLEHENGASAREE/" target="_blank" rel="noopener noreferrer">
@@ -81,19 +81,19 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h3>SAFE & SECURE PAYMENT</h3>
+          <h5>SAFE & SECURE PAYMENT</h5>
           <ul>
             <li>VISA</li>
             <li>RuPay</li>
             <li>PayPal</li>
             <li>Paytm</li>
           </ul>
-        </div>
-      </div>
-      <div className="footer-bottom">
+          <div className="footer-bottom">
         <div className="footer-newsletter">
           <input type="email" placeholder="Type your email here" />
           <button>Subscribe</button>
+        </div>
+      </div>
         </div>
       </div>
     </div>
