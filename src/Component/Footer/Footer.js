@@ -35,10 +35,10 @@ const Footer = () => {
         <div className="footer-section">
           <h5>COMPANY</h5>
           <ul>
-            <li>Privacy Policy</li>
-            <li>Contact Us</li>
-            <li>About Us</li>
-            <li>Terms & conditions</li>
+            <NavLink  to="/PrivacyPolicy">Privacy Policy</NavLink>
+            <NavLink  to="/ContactUs">Contact Us</NavLink>
+            <NavLink  to="/AboutUs">About Us</NavLink>
+            <NavLink  to="/Terms&conditions">Terms & conditions</NavLink>
           </ul>
         </div>
 

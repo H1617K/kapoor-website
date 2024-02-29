@@ -1,0 +1,54 @@
+.Contact-image{
+    margin-top: 1%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.BookAppointment-contact img{
+    position: relative;
+    margin-top: 30%;
+    margin-bottom: 2%;
+    width: 70%;
+}
+
+.info-Book{
+    position: absolute;
+    top: 1055px;;
+    margin-left: 30%;
+}
+
+.BookNow{
+    margin-top: 8%;
+    background-color: white;
+    border: none;
+    width: 280px;
+    height: 40px;
+}
+.BookNow a {
+    text-decoration: none;
+    color: black;
+}
+
+.GoogleMap  iframe{
+    width: 70%;
+    height: 450px;
+    border: 0;
+    margin-bottom: 2%;
+}
+
+.contact-form{
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 15%;
+    background-color: white;
+    width: 70%;
+    height: 720px;
+    border: 2px solid white;
+}
+
+.tabs{
+    position: absolute;
+    top: 40%;
+    margin-right: 50%;
+}

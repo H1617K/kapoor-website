@@ -5,6 +5,7 @@ import Footer from './Component/Footer/Footer';
 import { Blogs } from './Layout/Blogs/Blogs';
 import NewsLetter from './Layout/NewsLetterPage/NewsLetter';
 import VideoAppointment from './Layout/VideoAppointment/VideoAppointment';
+import ContactUs from './Layout/ContactUs/ContactUs';
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route  path="/Blogs" element={<Blogs/>}></Route>
           <Route path='/NewsLetter' element={<NewsLetter/>}></Route>
           <Route path='/VideoAppointment' element={<VideoAppointment/>}></Route>
+          <Route path='/ContactUs' element={<ContactUs/>}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>

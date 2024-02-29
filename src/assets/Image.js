@@ -25,10 +25,15 @@ import BookAppEnd from '../Image/BookAppEnd.png'
 import FromImg from '../Image/FromImg.png'
 import BookGroup from '../Image/BookGroup.png'
 
+// ContactUs
+import CountactusBG from '../Image/CountactusBG.png'
+import BookNowImg from '../Image/BookNowImg.png'
+
 export {
     BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,
     Logo,KapoorTextLogo,
     GooglePlaystore, Appstore,
     NewsLetterBG, NewsPoster1, NewsPoster2,
-    BookAppBG, BookAppEnd, FromImg, BookGroup
+    BookAppBG, BookAppEnd, FromImg, BookGroup,
+    CountactusBG, BookNowImg
 }
