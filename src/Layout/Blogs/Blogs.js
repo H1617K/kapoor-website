@@ -8,7 +8,7 @@ export const Blogs = () => {
     <div className="blog-container">
         {/* Blog1 */}
       <div className="blog-post">
-        <NavLink to="Blogs/VideoAppointment">
+        <NavLink to="/VideoAppointment">
       <img className='blog-image' src={BlogImg1} alt="Google Play" />
         <div className="blog-content">
           <h2 className="blog-title">Kanchipuram Saree Festive Wear</h2>
@@ -20,7 +20,7 @@ export const Blogs = () => {
       </div>
         {/* Blog2 */}
       <div className="blog-post">
-      <NavLink to="Blogs/VideoAppointment">
+      <NavLink to="/VideoAppointment">
       <img className='blog-image' src={BlogImg2} alt="Google Play" />
         <div className="blog-content">
           <h2 className="blog-title">Meenakari Bandhani Woven</h2>
@@ -32,7 +32,7 @@ export const Blogs = () => {
       </div>
         {/* Blog3 */}
       <div className="blog-post">
-      <NavLink to="Blogs/VideoAppointment">
+      <NavLink to="/VideoAppointment">
       <img className='blog-image' src={BlogImg3} alt="Google Play" />
         <div className="blog-content">
           <h2 className="blog-title">Handloom Saree Festive Wear</h2>
@@ -44,7 +44,7 @@ export const Blogs = () => {
       </div>
         {/* Blog4 */}
       <div className="blog-post">
-      <NavLink to="Blogs/VideoAppointment">
+      <NavLink to="/VideoAppointment">
       <img className='blog-image' src={BlogImg4} alt="Google Play" />
         <div className="blog-content">
           <h2 className="blog-title">Handloom Saree Festive Wear</h2>
@@ -56,7 +56,7 @@ export const Blogs = () => {
       </div>
         {/* Blog5 */}
       <div className="blog-post">
-      <NavLink to="Blogs/VideoAppointment">
+      <NavLink to="/VideoAppointment">
       <img className='blog-image' src={BlogImg5} alt="Google Play" />
         <div className="blog-content">
           <h2 className="blog-title">Handloom Saree Festive Wear</h2>
@@ -68,7 +68,7 @@ export const Blogs = () => {
       </div>
       {/* Blog6 */}
       <div className="blog-post">
-      <NavLink to="Blogs/VideoAppointment">
+      <NavLink to="/VideoAppointment">
       <img className='blog-image' src={BlogImg6} alt="Google Play" />
         <div className="blog-content">
           <h2 className="blog-title">Kanchipuram Saree Festive Wear</h2>
