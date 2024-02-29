@@ -12,6 +12,10 @@
     overflow: hidden;
     margin-top: 2rem;
   }
+  .blog-post a{
+    text-decoration: none;
+    color: black;
+  }
   
   .blog-image {
     width: 796px;
