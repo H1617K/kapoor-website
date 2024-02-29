@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import '../VideoAppointment/VideoAppointment.css'
-import { BookAppBG, FromImg, BookAppEnd } from '../../assets/Image'
-import { SlCalender } from "react-icons/sl";
-import { TiShoppingCart } from "react-icons/ti";
-import { LiaShippingFastSolid } from "react-icons/lia";
+import { BookAppBG, FromImg, BookAppEnd, BookGroup } from '../../assets/Image'
+// import { SlCalender } from "react-icons/sl";
+// import { TiShoppingCart } from "react-icons/ti";
+// import { LiaShippingFastSolid } from "react-icons/lia";
 
  const VideoAppointment = () => {
 
@@ -26,7 +26,8 @@ import { LiaShippingFastSolid } from "react-icons/lia";
           <div className='videoappoinment-info'>
             <h2>Book your appointment for Live Video shopping</h2>
             <div className='Icons'>
-                <div className='calender'>
+                <img src={BookGroup} alt="Navy Blue Banarasi Silk Bandhani Woven Saree" className="newsletter-image" /> 
+                {/* <div className='calender'>
                 <SlCalender /> <br/>
                 <h6> Book your appointment for Video shopping</h6>
                 </div>
@@ -37,7 +38,7 @@ import { LiaShippingFastSolid } from "react-icons/lia";
                 <div className='Shipped'>
                 <LiaShippingFastSolid /> <br/>
                 <h6>Now you may relax and wait for us to deliver your package of happiness.</h6>
-                </div>
+                </div> */}
             </div>
           </div>
         </div>

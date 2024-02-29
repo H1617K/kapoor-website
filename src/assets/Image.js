@@ -23,11 +23,12 @@ import NewsPoster2 from '../Image/NewsPoster2.png'
 import BookAppBG from '../Image/BookAppBG.png'
 import BookAppEnd from '../Image/BookAppEnd.png'
 import FromImg from '../Image/FromImg.png'
+import BookGroup from '../Image/BookGroup.png'
 
 export {
     BlogImg1,BlogImg2,BlogImg3,BlogImg4,BlogImg5,BlogImg6,
     Logo,KapoorTextLogo,
     GooglePlaystore, Appstore,
     NewsLetterBG, NewsPoster1, NewsPoster2,
-    BookAppBG, BookAppEnd, FromImg
+    BookAppBG, BookAppEnd, FromImg, BookGroup
 }
