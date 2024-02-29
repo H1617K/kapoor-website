@@ -9,6 +9,7 @@ import ContactUs from './Layout/ContactUs/ContactUs';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
           <Route  path="/Blogs" element={<Blogs/>}></Route>
           <Route path='/NewsLetter' element={<NewsLetter/>}></Route>
           <Route path='/VideoAppointment' element={<VideoAppointment/>}></Route>
-          <Route path='/ContactUs' element={<ContactUs/>}></Route>
+           <Route path='/ContactUs' element={<ContactUs/>}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>
