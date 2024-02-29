@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Footer/Footer.css';
 import {GooglePlaystore, Appstore} from '../../assets/Image'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -44,13 +45,13 @@ const Footer = () => {
         <div className="footer-section">
           <h5>INFORMATION</h5>
           <ul>
-            <li>Returns</li>
-            <li>Product</li>
-            <li>Blog/Articles</li>
-            <li>Subscribe to Newsletter</li>
-            <li>Affiliate Program</li>
-            <li>FAQ's</li>
-            <li>Franchise</li>
+            <NavLink to="/Returns">Returns</NavLink>
+            <NavLink to="/Product">Product</NavLink>
+            <NavLink to="/Blogs">Blog/Articles</NavLink>
+            <NavLink to="/Newsletter">Subscribe to Newsletter</NavLink>
+            <NavLink to="/Affiliate Program">Affiliate Program</NavLink>
+            <NavLink to="/FAQ's">FAQ's</NavLink>
+            <NavLink to="/Franchise">Franchise</NavLink>
           </ul>
         </div>
         <div className="footer-section">
